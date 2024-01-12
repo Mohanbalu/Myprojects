@@ -33,7 +33,7 @@ Welcome to the "C Project - Restaurant Billing System" repository! This project 
 
 To get started with the project, follow these steps:
 
-### Clone the Repository
+1. Clone the repository:
    ```bash
    git clone https://github.com/Mohanbalu/Myprojects.git
    cd Myprojects/C%20project
@@ -96,13 +96,8 @@ Thank you for considering contributing to the "C Project - Restaurant Billing Sy
 3. Push to the branch:
 git push origin feature/new-feature
  Make sure to follow the project's code style guidelines, document your code, and adhere to best practices while making changes. These steps ensure a smooth contribution process and help maintain a high-quality codebase.
-
-## License 
 # License
-
 The MIT License is a permissive open-source license that allows for the free use, modification, and distribution of the software.
-
+###
 Feel free to customize these instructions based on your project's specific contribution guidelines.
-
-
 Copy and paste this Markdown code block into the "Contributing" section of your README file on GitHub. Adjust the content as needed for your specific project.
