@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <div id="home" class="home">
+        <div class="content">
+            <div class="home-text"> 
+                <h1>Home</h1>
+            </div>
+            <h4>Welcome to Mohan's Portfolio</h4>
+            <p>Hello and welcome! I'm thrilled to have you here. My name is Mohan, and I'm a passionate Web Developer.</p>
+        </div>
+        <div class="image-container">
+            <img src="meh.jpg" class="myimg" style="border-radius: 30%;">
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="about">
+        <h1>About Me</h1>
+        <p>I'm a web developer with a passion for creating responsive and visually appealing websites.</p>
+        <p>In addition to web development, I enjoy exploring new technologies and keeping up with industry trends.</p>
+        <p>I have experience working with HTML, CSS, JavaScript, and various web development frameworks.</p>
+        <p>My goal is to deliver high-quality solutions that meet client requirements and exceed expectations.</p>
+        <p>Other skills include fluency in English, Hindi, and Telugu, bookkeeping, and search engine optimization.</p>
+    </div>
+
+    <!-- Education Section -->
+    <div id="education" class="education">
+        <h1>Education</h1>
+        <h3>10th Standard (2019-2020)</h3>
+        <p>L.A.H.S, J.P.T, A.P</p>
+        <h3>12th Standard (2020-2022)</h3>
+        <p>J.R.C, J.P.T, A.P</p>
+        <h3>B.Tech (2022-Present)</h3>
+        <p>S.R.M, Guntur, A.P</p>
+    </div>
+
+    <!-- Skills Section -->
+    <div id="skills" class="skills">
+        <h1>Skills</h1>
+        <ul>
+            <li>C</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>English (Fluent)</li>
+            <li>Hindi (Fluent)</li>
+            <li>Telugu (Fluent)</li>
+            <li>Bookkeeping</li>
+            <li>Search Engine Optimization</li>
+        </ul>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="projects">
+        <h1>Projects</h1>
+        <ul>
+            <li>
+                <a href="https://github.com/Mohanbalu/Myprojects" target="_blank">My Projects</a>
+                <p>A collection of various projects showcasing skills in software development, including a Phone Memory Management System, Distance Finding application, and implementation of stack data structure.</p>
+            </li>
+        </ul>
+    </div>
+
+   <!-- Contact Section -->
+<div id="contact" class="contact">
+    <h1>Contact</h1>
+    <ul>
+        <li><a href="https://instagram.com/mohan451208" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://twitter.com/MHNGMG1" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://github.com/Mohanbalu" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/mohan-balu-a9b7a4258" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://leetcode.com/mohanbalu4" target="_blank"><i class="fas fa-code"></i></a></li>
+        <li><i class="fas fa-phone"></i> 8074223***</li>
+        <li><i class="fas fa-envelope"></i> <a href="mailto:mohanbalu292@gmail.com">mohanbalu292@gmail.com</a></li>
+    </ul>
+</div>
+
+</body>
+</html>
