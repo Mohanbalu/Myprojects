@@ -1,0 +1,81 @@
+#include <stdio.h>
+
+void Linear_Sort(int sizee, int arr[], int key) {
+    int count_ = 0;
+    for (int i = 0; i < sizee; i++) {
+        if (arr[i] == key) {
+            printf("Key found at position %d\n", i);
+            count_++;
+            printf("\nTime Complexity of Linear Sort is O(n)\n");
+        }
+    }
+    if (count_ == 0) {
+        printf("Key not found\n");
+    }
+}
+
+void sort_array(int sizee, int arr[]) {
+    for (int i = 0; i < sizee - 1; i++) {
+        for (int j = i + 1; j < sizee; j++) {
+            if (arr[i] > arr[j]) {
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+    }
+    printf("Sorted array:\n");
+    for (int i = 0; i < sizee; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+}
+
+int Binary_Search(int low, int high, int arr[], int key) {
+    if (low <= high) {
+        int mid = low + (high - low) / 2;
+        if (arr[mid] == key) {
+            printf("Key found at position %d\n", mid);
+            return mid;
+        } else if (arr[mid] < key) {
+            return Binary_Search(mid + 1, high, arr, key);
+        } else {
+            return Binary_Search(low, mid - 1, arr, key);
+        }
+    }
+    printf("Key not found\n");
+    printf("\nTime complexity of binary search is O(nlogn)");
+    return -1;
+}
+
+int main() {
+    int sizee;
+    printf("Enter number of Elements: ");
+    scanf("%d", &sizee);
+    int arr[sizee];
+    for (int i = 0; i < sizee; i++) {
+        printf("Enter the Element arr[%d]: ", i);
+        scanf("%d", &arr[i]);
+    }
+    int key;
+    printf("Enter the key to search: ");
+    scanf("%d", &key);
+    int choice;
+    printf("Select which sorting algorithm you want to choose\n");
+    printf("\t1. Linear Sort\n");
+    printf("\t2. Binary Sort\n");
+    scanf("%d", &choice);
+    switch (choice) {
+        case 1:
+            sort_array(sizee, arr);
+            Linear_Sort(sizee, arr, key);
+            break;
+        case 2:
+            Binary_Search(0, sizee - 1, arr, key);
+            break;
+        default:
+            printf("Invalid choice\n");
+            break;
+    }
+    return 0;
+}
