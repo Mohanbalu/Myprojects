@@ -40,4 +40,25 @@ This repository serves as a collection of sorting and searching algorithms imple
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/your-username/sorting-and-searching.git
+   git clone https://github.com/Mohanbalu/sorting-and-searching.git
+2. **Navigate to the Project Directory:**
+   ```bash
+   cd sorting-and-searching
+3. **Compile the Program:**
+   ```bash
+   gcc main.c -o search_sort
+4. **Run the Program:**
+   ```bash
+   ./search_sort
+5. **Follow the Prompts:**
+ Enter the number of elements
+ Enter the elements themselves. 
+  Enter the key to search for. 
+  Choose the sorting algorithm. 
+ 
+## Contributing
+#### Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request. ###
+
+## License
+### This project is licensed under the MIT License. See the LICENSE file for details.
+Feel free to customize this README further based on your preferences or specific needs!
