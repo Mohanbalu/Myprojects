@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Calculator</title>
+    <link rel = "icon" type="icon" href="calculator.png">
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="calculator">
+        <table>
+            <tr>
+                <td colspan="4" class="output"><input type="text" id="output" disabled></td>
+            </tr>
+            <tr>
+                <td><button onclick="clearOutput()">C</button></td>
+                <td><button onclick="appendInput('(')">(</button></td>
+                <td><button onclick="appendInput(')')">)</button></td>
+                <td><button onclick="appendInput('/')"> ÷ </button></td>
+            </tr>
+            <tr>
+                <td><button onclick="appendInput('7')">7</button></td>
+                <td><button onclick="appendInput('8')">8</button></td>
+                <td><button onclick="appendInput('9')">9</button></td>
+                <td><button onclick="appendInput('*')"> × </button></td>
+            </tr>
+            <tr>
+                <td><button onclick="appendInput('4')">4</button></td>
+                <td><button onclick="appendInput('5')">5</button></td>
+                <td><button onclick="appendInput('6')">6</button></td>
+                <td><button onclick="appendInput('-')"> - </button></td>
+            </tr>
+            <tr>
+                <td><button onclick="appendInput('1')">1</button></td>
+                <td><button onclick="appendInput('2')">2</button></td>
+                <td><button onclick="appendInput('3')">3</button></td>
+                <td><button onclick="appendInput('+')"> + </button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button onclick="appendInput('0')">0</button></td>
+                <td><button onclick="appendInput('.')">.</button></td>
+                <td><button onclick="calculate()">=</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
