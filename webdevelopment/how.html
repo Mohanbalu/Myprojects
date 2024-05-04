@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        video {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border-radius: 10px;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay loop>
+        <source src ="rain.mp4" type="video/mp4"> 
+    </video>
+    <div class="overlay">
+        <ul type ="disc">
+            <li>
+                <h2>Username</h2>
+                <ul>
+                    <li>Username can contain alphabets (a-z/A-Z), numbers (0-9), dot (.), and underscore (_).</li>
+                    <li>You can only include these characters in your username: (a-z/A-Z/0-9/./_).</li>
+                    <li>Length of the username should be greater than 3 and less than 10.</li>
+                    <li>Remember it easily for the human brain.</li>
+                    <li>To hack, there will be 3! to 10! combinations, which are hard to hack.</li>
+                </ul>
+            </li>
+            
+            <li>
+                <h2>Password</h2>
+                <ul>
+                    <li>Password can be anything.</li>
+                    <li>You can include any characters.</li>
+                    <li>Length of the password should be greater than 8 and less than 15.</li>
+                    <li>Keep your password private.</li>
+                    <li>Don’t forget your password.</li>
+                    <li>TIP: Write your username and password somewhere safe like a book, etc.</li>
+                    <li>Your entered password and re-entered password should be the same.</li>
+                </ul>
+            </li>
+
+            <li>
+                <h2>Date Of Birth</h2>
+                <ul>
+                    <li>You should be greater than 8 years old (age).</li>
+                    <li>That's the age of understanding the world and gaining knowledge.</li>
+                    <li>Your privacy is our policy.</li>
+                    <li>Enter your correct age.</li>
+                </ul>
+            </li>
+
+            <li>
+                <h2>Gender</h2>
+                <ul>
+                    <li>Don't create fake accounts. We are not a game.</li>
+                    <li>Select your gender from the given options.</li>
+                </ul>
+            </li>
+
+            <li>
+                <h2>One Time Password (OTP)</h2>
+                <ul>
+                    <li>This is our authentication or confirming if it's really you.</li>
+                    <li>This is for your protection.</li>
+                    <li>You have to enter that OTP in the registration form.</li>
+                    <li>OTP will be sent to your phone number.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
