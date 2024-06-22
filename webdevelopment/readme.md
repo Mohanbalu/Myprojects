@@ -38,10 +38,14 @@ We welcome contributions from the community! Check out the [Contributing Guideli
 
 ## License
 
-This project is licensed under the [License Name]. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the [License Name]. Please take a look at the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-If you have any questions or feedback, feel free to contact us at [email address].
+If you have any questions or feedback, please contact us at [email address].
 
-Thank you for checking out our project! We hope you find it useful. Happy connecting!
+Thank you for checking out our project! We hope it's useful to you. Happy connecting!
+
+## Contrubtion 
+
+@praneeth-9904
